@@ -1,10 +1,10 @@
 import Profile from "./components/Profile/Profile.jsx";
 import FriendList from './components/FriendList/FriendList.jsx';
-// import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx';
 
 import userData from './userData.json';
 import friends from './friends.json';
-// import transactions from './transactions.json';
+import transactions from './transactions.json';
 
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
         likes={userData.stats.likes}
       />
       <FriendList friends={friends} />
-      {/* <TransactionHistory items={transactions} /> */}
+      <TransactionHistory items={transactions} />
     </>
   );
 };
