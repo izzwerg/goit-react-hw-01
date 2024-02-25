@@ -1,6 +1,6 @@
 import styles from "./TransactionHistory.module.css";
 
-const TransactionHistory = ({items}) => {
+const TransactionHistory = ({ items }) => {
   return (
     <table className={styles.transactionTable}>
       <thead className={styles.tableHead}>
@@ -13,13 +13,13 @@ const TransactionHistory = ({items}) => {
 
       <tbody>
         {items.map((item) => {
-            return(
+          return (
             <tr key={item.id} className={styles.rowStyle}>
               <td>{capitalizeText(item.type)}</td>
               <td>{item.amount}</td>
               <td>{item.currency}</td>
             </tr>
-            );
+          );
         })}
       </tbody>
     </table>
@@ -27,13 +27,13 @@ const TransactionHistory = ({items}) => {
 };
 
 function capitalizeText(text) {
-    if (!text.length) {
-      return '';
-    }
-    const firstLetter = text.charAt(0);
-    const firstLetterCap = firstLetter.toUpperCase();
-    const remainingLetters = text.slice(1);
-    return firstLetterCap + remainingLetters;
+  if (!text.length) {
+    return "";
   }
+  const firstLetter = text.charAt(0);
+  const firstLetterCap = firstLetter.toUpperCase();
+  const remainingLetters = text.slice(1);
+  return firstLetterCap + remainingLetters;
+}
 
 export default TransactionHistory;

@@ -31,7 +31,12 @@ body {
   justify-content: space-evenly;
 }
 
-h1, h2, h3, h4, p, ul {
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
   margin: 0;
   padding: 0;
 }

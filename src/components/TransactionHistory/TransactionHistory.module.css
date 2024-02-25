@@ -1,28 +1,28 @@
 .transactionTable {
-    width: 640px;
-    font-weight: 700;
+  width: 640px;
+  font-weight: 700;
 }
 
-.transactionTable, th, td {
-    border: 1px solid black;
-    border-spacing: 0;
-    font-size: 18px;
-
+.transactionTable,
+th,
+td {
+  border: 1px solid black;
+  border-spacing: 0;
+  font-size: 18px;
 }
 
 .tableHead {
-    color: #fff;
-    background-color: #2A2A2A;
+  color: #fff;
+  background-color: #2a2a2a;
 }
 
 .rowStyle {
-    background-color: #fff;
-    text-align: center;
-    font-weight: 500;
-    color: black;
+  background-color: #fff;
+  text-align: center;
+  font-weight: 500;
+  color: black;
 }
 
 .rowStyle:nth-child(even) {
-    background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
-

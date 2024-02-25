@@ -1,14 +1,6 @@
-import styles from './Profile.module.css';
+import styles from "./Profile.module.css";
 
-const Profile = ({
-  name,
-  tag,
-  location,
-  image,
-  followers,
-  views,
-  likes,
-}) => {
+const Profile = ({ name, tag, location, image, followers, views, likes }) => {
   return (
     <div className={styles.wrap}>
       <div className={styles.userInfo}>
