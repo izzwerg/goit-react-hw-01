@@ -18,7 +18,7 @@ const Profile = ({
           alt="User avatar"
           className={styles.avatar}
         />
-        <h3 className={styles.userName}>{name}</h3>
+        <p className={styles.userName}>{name}</p>
         <p className={styles.userTag}>@{tag}</p>
         <p className={styles.location}>{location}</p>
       </div>
