@@ -1,9 +1,9 @@
 import Profile from "./components/Profile/Profile.jsx";
-// import FriendList from './components/FriendList/FriendList.jsx';
+import FriendList from './components/FriendList/FriendList.jsx';
 // import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx';
 
 import userData from './userData.json';
-// import friends from './friends.json';
+import friends from './friends.json';
 // import transactions from './transactions.json';
 
 
@@ -19,8 +19,8 @@ const App = () => {
         views={userData.stats.views}
         likes={userData.stats.likes}
       />
-      {/* <FriendList friends={friends} />
-      <TransactionHistory items={transactions} /> */}
+      <FriendList friends={friends} />
+      {/* <TransactionHistory items={transactions} /> */}
     </>
   );
 };

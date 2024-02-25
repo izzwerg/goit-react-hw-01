@@ -1,0 +1,21 @@
+
+
+.friendImg {
+    width: 98px;
+}
+
+.friendName {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.isOnline {
+    font-weight: 500;
+color: green;
+}
+
+.isOffline {
+    font-weight: 500;
+    color: red;
+
+}
